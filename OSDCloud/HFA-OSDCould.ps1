@@ -1,4 +1,4 @@
-Write-Host  -ForegroundColor Yellow "Starting el OSD Personalizado de Hermann ..."
+Write-Host  -ForegroundColor Yellow "Lanzando el OSD Personalizado de Hermann ..."
 cls
 Write-Host "================ Menu Principal =====================" -ForegroundColor Yellow
 Write-Host "===============  Aerocenter Chile ===================" -ForegroundColor Yellow
