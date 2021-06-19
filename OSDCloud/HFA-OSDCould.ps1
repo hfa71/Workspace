@@ -17,8 +17,8 @@ Install-Module OSD -Force
 
 switch ($input)
 {
-    '1' { Start-OSDCloud -OSLanguage en-us -OSBuild 21H1 -OSEdition Professional -ZTI -EnableNetFX } 
-    '2' { Start-OSDCloud -OSLanguage es-mx -OSBuild 21H1 -OSEdition Professional -ZTI -EnableNetFX } 
+    '1' { Start-OSDCloud -OSBuild "21H1" -OSEdition "Pro" -OSLanguage "en-us" } 
+    '2' { Start-OSDCloud -OSBuild "21H1" -OSEdition "Pro" -OSLanguage "es-mx" } 
     '3' { Start-OSDCloud	} 
     '4' { Exit		}
 }
